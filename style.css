@@ -1,0 +1,67 @@
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the form container */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+
+}
+
+/* Style the form */
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style form labels */
+.container label {
+    margin-bottom: 10px;
+}
+
+/* Style form input fields */
+.container input[type="text"],
+.container input[type="password"] ,
+.container input[type="email"],
+.container input[type="date"]{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the form submit button */
+.container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style links */
+.container p {
+    margin-top: 15px;
+}
+
+/* Style the sign-up link */
+container p a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+/* Style the sign-up link on hover */
+container p a:hover {
+    text-decoration: underline;
+}
