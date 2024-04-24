@@ -34,3 +34,6 @@ To run the Login and Registration System project on your local machine, follow t
 1. Clone the project repository:
    ```bash
    git clone https://github.com/abeerahmed122/login-registration-system.git
+## Authors
+- [Abeer Elkhamisy](https://github.com/abeerahmed122) - Idea & Initial work
+
